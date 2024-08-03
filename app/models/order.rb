@@ -6,5 +6,6 @@ class Order < ApplicationRecord
 
   private
   def set_status_to_pending
+    self.status = "pending"
   end
 end
